@@ -8,6 +8,9 @@ PREPROCESSING:
 normalization, one-hot encoding
 
 NETWORK ARCHITECTURE:
-building convolutional layers, maxpooling, ReLu activation, flattening, dropouts
+multi-layer stack including conv layers, fully connected layers, maxpooling, ReLu activation, flattening, dropouts
+
+HYPERPARAMETERS:
+epochs, batch size, keep_prob
 
 The network is built on TensorFlow and code is written in Python (v3) and is presented via Jupyter Notebook. The network was trained via the cloud using an AWS EC2 instance.
